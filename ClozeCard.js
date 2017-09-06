@@ -8,9 +8,6 @@ this.partial = text.replace(this.cloze, "_____");
 }
 
 
-}
-
-
 
 
 module.exports = ClozeCard;
