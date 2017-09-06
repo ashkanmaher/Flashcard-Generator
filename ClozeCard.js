@@ -2,10 +2,10 @@
 // Constructor function for creating cloze-deletion flashcards
 
 function ClozeCard(text, cloze) {
-this.cloze = cloze,
-this.partial =
-this.fullText = text,
-
+this.fullText = text;
+this.cloze = cloze;
+this.partial = text.replace(this.cloze, "_____");
+}
 
 
 }
